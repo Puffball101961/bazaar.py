@@ -1,6 +1,10 @@
 ## bazaar.py
 A Python Wrapper for the Hypixel Skyblock Bazaar
 
+![Supports](https://img.shields.io/pypi/pyversions/bazaarpy)
+![Version](https://img.shields.io/pypi/v/bazaarpy)
+![License](https://img.shields.io/pypi/l/bazaarpy)
+
 ## Installation
 
     pip install bazaarpy
