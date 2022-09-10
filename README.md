@@ -1,7 +1,32 @@
-# bazaar.py
-Easy Hypixel Skyblock Bazaar API for python.
+## bazaar.py
+A Python Wrapper for the Hypixel Skyblock Bazaar
 
-Development in progress.
+## Installation
 
-items.json contains a list of all the bazaar item product IDs with appropriate human-readable names.
-Feel free to open a pull request to add/change items in the list.
+    pip install bazaarpy
+
+## Usage
+This code will import the library, setup the Bazaar class and refresh the data from the API.
+
+    from bazaar import *
+    baz = Bazaar()
+    baz.updateValues()
+    
+When querying an item, you must use its Product ID or similar name, as defined in items.json
+
+**Available Functions:**
+* updateValues() Fetches new data from the Hypixel API. Do not spam this function or Hypixel may blacklist your IP address.
+* buyOrders(*item*) Gets the current Buy Orders for an item
+* sellOrders(*item*) Gets the current Sell Orders for an item
+* price(*item*) Gets the Buy and Sell price for an item
+* volume(*item*) Gets the Buy and Sell volume for an item
+* orderCount(*item*) Gets the number of Buy and Sell orders currently open for an item
+
+## Examples
+Fetch the Buy Price of a red gift and print it to the screen.
+
+    from bazaarpy import bazaar as bz
+    baz = bz.Bazaar()
+    baz.updateValues()    
+    buyPrice = baz.price("red gift")['buyPrice']   
+    print(str(buyPrice))
