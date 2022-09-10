@@ -11,9 +11,9 @@ A Python Wrapper for the Hypixel Skyblock Bazaar
 ## Usage
 This code will import the library, setup the Bazaar class and refresh the data from the API.
 
-    from bazaar import *
-    baz = Bazaar()
-    baz.updateValues()
+    from bazaarpy import bazaar as bz
+    baz = bz.Bazaar()
+    baz.updateValues() 
     
 When querying an item, you must use its Product ID or similar name, as defined in items.json
 
