@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 setup(
     name='bazaarpy',
     packages=find_packages(include=['bazaarpy']),
-    version='0.1.3',
+    version='0.1.4',
     description='A Python wrapper for the Hypixel Skyblock Bazaar API',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
