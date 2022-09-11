@@ -12,5 +12,5 @@ setup(
     install_requires=['requests'],
     include_package_data=True,
     package_data={'': ['*.json']},
-    url='https://github.com/Puffball101961/bazaarpy',
+    url='https://github.com/Puffball101961/bazaar.py',
 )
