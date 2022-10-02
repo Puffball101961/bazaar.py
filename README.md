@@ -3,7 +3,7 @@ A Python Wrapper for the Hypixel Skyblock Bazaar
 
 ![Version](https://img.shields.io/pypi/v/bazaarpy)
 ![License](https://img.shields.io/pypi/l/bazaarpy)
-[![Downloads](https://static.pepy.tech/personalized-badge/bazaarpy?period=total&units=international_system&left_color=black&right_color=brightgreen&left_text=Downloads)](https://pepy.tech/project/bazaarpy)
+[![Downloads](https://static.pepy.tech/personalized-badge/bazaarpy?period=total&units=international_system&left_color=lightgrey&right_color=brightgreen&left_text=Downloads)](https://pepy.tech/project/bazaarpy)
 
 ## Installation
 
