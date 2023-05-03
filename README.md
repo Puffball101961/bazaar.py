@@ -1,6 +1,9 @@
 ## bazaar.py
 A Python Wrapper for the Hypixel Skyblock Bazaar
 
+## Note: 
+This project has been put on an indefinite hold for lack of time and changes to the Hypixel API.
+
 ![Version](https://img.shields.io/pypi/v/bazaarpy)
 ![License](https://img.shields.io/pypi/l/bazaarpy)
 [![Downloads](https://static.pepy.tech/personalized-badge/bazaarpy?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=Downloads)](https://pepy.tech/project/bazaarpy)
